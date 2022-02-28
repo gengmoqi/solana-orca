@@ -98,10 +98,10 @@
     typescript "^4.3.2"
     yargs "^17.0.1"
 
-"@orca-so/sdk@^1.2.13":
-  version "1.2.13"
-  resolved "https://registry.yarnpkg.com/@orca-so/sdk/-/sdk-1.2.13.tgz#43269ff369b0e947fc3bddb79f615897cf75d1e2"
-  integrity sha512-J3COmO9PaygxWeh1b9JzUdN3XXDmPvV0hkssEEkMMYxpNnFWgxSq3r8/3DqZx8zsIBXtq5AKa0F6BMrzQveMFw==
+"@orca-so/sdk@^1.2.23":
+  version "1.2.23"
+  resolved "https://registry.yarnpkg.com/@orca-so/sdk/-/sdk-1.2.23.tgz#51f24c34371a8d0e1d6b3e526779cb40cae87832"
+  integrity sha512-HrLS6RtGGd4smMBfi8aF3pLe7N/QHQJffgtPYp/sny4C+Sn5ktZwbzT3KUWWLyKjBCGnt0nWszJCqKP1w+1glg==
   dependencies:
     "@orca-so/aquafarm" "^0.0.12"
     "@orca-so/stablecurve" "^1.0.5"
@@ -185,10 +185,30 @@
     tweetnacl "^1.0.0"
     ws "^7.0.0"
 
-"@solana/web3.js@^1.10.0", "@solana/web3.js@^1.20.0", "@solana/web3.js@^1.21.0", "@solana/web3.js@^1.24.1", "@solana/web3.js@^1.31.0":
+"@solana/web3.js@^1.10.0", "@solana/web3.js@^1.20.0", "@solana/web3.js@^1.21.0", "@solana/web3.js@^1.24.1":
   version "1.31.0"
   resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.31.0.tgz#7a313d4c1a90b77f27ddbfe845a10d6883e06452"
   integrity sha512-7nHHx1JNFnrt15e9y8m38I/EJCbaB+bFC3KZVM1+QhybCikFxGMtGA5r7PDC3GEL1R2RZA8yKoLkDKo3vzzqnw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@ethersproject/sha2" "^5.5.0"
+    "@solana/buffer-layout" "^3.0.0"
+    bn.js "^5.0.0"
+    borsh "^0.4.0"
+    bs58 "^4.0.1"
+    buffer "6.0.1"
+    cross-fetch "^3.1.4"
+    jayson "^3.4.4"
+    js-sha3 "^0.8.0"
+    rpc-websockets "^7.4.2"
+    secp256k1 "^4.0.2"
+    superstruct "^0.14.2"
+    tweetnacl "^1.0.0"
+
+"@solana/web3.js@^1.35.1":
+  version "1.35.1"
+  resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.35.1.tgz#777b039a3b51e63c347712a57c7db87c9d1db832"
+  integrity sha512-3bDawFFI0KcvgI8Ae4N4hdQ8+Bg9gu6q+IkhPrYxOF6RYnB3U+9A4u+DhHZWLvTvgoTyesi/m5HzlleKtFEqRQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@ethersproject/sha2" "^5.5.0"
