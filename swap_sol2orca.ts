@@ -11,10 +11,10 @@ const main = async () => {
   const owner = Keypair.fromSecretKey(secretKey);
   console.log("owner: " + owner.publicKey.toString());
 
-  // 2. Initialzie Orca object with mainnet connection
+  // 2. Initialzie Orca object with mainnet/devnet connection
   // TODO: replace your own rpc and ws url here
-  const rpcURL = "https://your-own-rpc-url";
-  const wsURL = "wss://your-own-ws-url";
+  const rpcURL = "https://api.devnet.solana.com";
+  const wsURL = "wss://api.devnet.solana.com";
   const connection = new Connection(rpcURL, {
     commitment: "confirmed",
     wsEndpoint: wsURL,

@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@orca-so/sdk": "^1.2.13",
-    "@solana/web3.js": "^1.31.0",
+    "@orca-so/sdk": "^1.2.23",
+    "@solana/web3.js": "^1.35.1",
     "decimal.js": "^10.3.1"
   }
 }
